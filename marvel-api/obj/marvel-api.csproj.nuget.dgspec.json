@@ -1,26 +1,34 @@
 {
   "format": 1,
   "restore": {
-    "/Users/martin/repos/marvel-comics/marvel-api/marvel-api.csproj": {}
+    "C:\\repos\\marvel-comics\\marvel-api\\marvel-api.csproj": {}
   },
   "projects": {
-    "/Users/martin/repos/marvel-comics/marvel-api/marvel-api.csproj": {
+    "C:\\repos\\marvel-comics\\marvel-api\\marvel-api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/martin/repos/marvel-comics/marvel-api/marvel-api.csproj",
+        "projectUniqueName": "C:\\repos\\marvel-comics\\marvel-api\\marvel-api.csproj",
         "projectName": "marvel-api",
-        "projectPath": "/Users/martin/repos/marvel-comics/marvel-api/marvel-api.csproj",
-        "packagesPath": "/Users/martin/.nuget/packages/",
-        "outputPath": "/Users/martin/repos/marvel-comics/marvel-api/obj/",
+        "projectPath": "C:\\repos\\marvel-comics\\marvel-api\\marvel-api.csproj",
+        "packagesPath": "C:\\Users\\Martin.Rombach\\.nuget\\packages\\",
+        "outputPath": "C:\\repos\\marvel-comics\\marvel-api\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/martin/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Martin.Rombach\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/dentistplan/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -43,9 +51,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.2, )"
+              "version": "[8.0.8, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -71,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

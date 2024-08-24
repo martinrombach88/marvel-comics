@@ -1,0 +1,27 @@
+1. title endpoint
+
+What is the input?
+
+Call endpoint with a search term
+
+What is the output?
+
+You get the search term. Then?
+Using the db first entity framework approach, you retrieve a single entry from the database.
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------------ Later --------------------------------------------------------------------
+
+2. character endpoint
+3. teamup endpoint
