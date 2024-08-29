@@ -1,0 +1,33 @@
+1. goal - use db first approach with EF and get any data from the db
+
+- get date call first
+X -> EF doesn't really work like that.
+How to test?
+Simple GET would be best.
+
+Did:
+Matched the code for model, controller, data context
+Error:
+500 + Data is null (get date time)
+
+publish date is a DateTime value.
+how do you work with dates in ef?
+
+Is this issue to do with the date or the connection in general?
+
+Solution ->
+DateTime isn't nullable. using DateTime? makes the value nullable.
+Then I needed to make a sample table as the original table was too big.
+--------------------------------------------------------------------------
+NEXT
+
+
+Dad - to 'normalise' the data and separate it out, 
+you will need a character table to compare the comics to.
+Use the Marvel API to generate a list and make a table from the 
+list called Characters.
+Use it to generate single and multiple endpoints where comics 
+are returned containing the search. 
+
+2. character endpoint
+3. teamup endpoint

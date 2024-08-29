@@ -1,0 +1,30 @@
+1. Clone the tutorial repo locally rather than add to the project
+
+Design Recap:
+
+What are you making?
+
+.NET API -> Next Web App
+
+Olympics Data
+
+--> uninspiring dataset?
+You have no interest in sport. Go with Marvel or Star Wars.
+
+Essential -
+Users with JWT
+Searches
+
+Local only
+
+Database first
+
+Entity Framework
+
+(you can do a dapper version afterwards if you like)
+
+Controllers:
+
+Models:
+
+View -> separate app, but can be included in solution?

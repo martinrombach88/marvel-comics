@@ -1,0 +1,10 @@
+Returns a list of comics containing the search term in the title
+
+SearchForCharacter takes a single character string as input
+Returns a list of comics with mention of the character in either 
+the title or description
+
+SearchForCharacters takes a character list as input,
+Returns a list of comics with mention of every character in 
+the list in either the title or description
+

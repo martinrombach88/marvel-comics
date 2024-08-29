@@ -1,0 +1,17 @@
+1. Switch to marvel comics data?
+
+
+Search Controller
+character -> where title or description includes the character
+title -> where the title includes the search term
+active years -> give a range
+artist -> 
+writer ->
+combination endpoint
+
+User Controller
+Marvel User
+name
+gender
+location
+search history

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\marvel-api.props" />
+</Project>
