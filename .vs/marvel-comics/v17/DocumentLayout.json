@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\repos\\marvel-comics\\",
+  "WorkspaceRootPath": "C:\\Repos\\marvel-comics\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\repos\\marvel-comics\\marvel-api\\Controllers\\SearchController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:marvel-api\\Controllers\\SearchController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Repos\\marvel-comics\\marvel-api\\NodeJsHelpers\\JSONProcessor.js||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:marvel-api\\NodeJsHelpers\\JSONProcessor.js||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\repos\\marvel-comics\\marvel-api\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Repos\\marvel-comics\\marvel-api\\NodeJsHelpers\\KeyHasher.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:marvel-api\\NodeJsHelpers\\KeyHasher.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Repos\\marvel-comics\\marvel-api\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:marvel-api\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\repos\\marvel-comics\\marvel-api\\Notes\\2108-notes.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:marvel-api\\Notes\\2108-notes.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,19 +22,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e78e0cf7-2e4e-48a7-bf7f-a94d9330a3be}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{be4d7042-ba3f-11d2-840e-00c04f9902c1}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
             },
             {
               "$type": "Bookmark",
@@ -42,49 +42,50 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\repos\\marvel-comics\\marvel-api\\Program.cs",
-              "RelativeDocumentMoniker": "marvel-api\\Program.cs",
-              "ToolTip": "C:\\repos\\marvel-comics\\marvel-api\\Program.cs",
-              "RelativeToolTip": "marvel-api\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T09:28:15.669Z",
-              "EditorCaption": ""
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+              "Name": "ST:0:0:{d84ee353-0bef-5a41-a649-8f89aca5d84d}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SearchController.cs",
-              "DocumentMoniker": "C:\\repos\\marvel-comics\\marvel-api\\Controllers\\SearchController.cs",
-              "RelativeDocumentMoniker": "marvel-api\\Controllers\\SearchController.cs",
-              "ToolTip": "C:\\repos\\marvel-comics\\marvel-api\\Controllers\\SearchController.cs",
-              "RelativeToolTip": "marvel-api\\Controllers\\SearchController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T21:55:05.148Z",
+              "Title": "JSONProcessor.js",
+              "DocumentMoniker": "C:\\Repos\\marvel-comics\\marvel-api\\NodeJsHelpers\\JSONProcessor.js",
+              "RelativeDocumentMoniker": "marvel-api\\NodeJsHelpers\\JSONProcessor.js",
+              "ToolTip": "C:\\Repos\\marvel-comics\\marvel-api\\NodeJsHelpers\\JSONProcessor.js*",
+              "RelativeToolTip": "marvel-api\\NodeJsHelpers\\JSONProcessor.js*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-08-29T21:58:20.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "KeyHasher.js",
+              "DocumentMoniker": "C:\\Repos\\marvel-comics\\marvel-api\\NodeJsHelpers\\KeyHasher.js",
+              "RelativeDocumentMoniker": "marvel-api\\NodeJsHelpers\\KeyHasher.js",
+              "ToolTip": "C:\\Repos\\marvel-comics\\marvel-api\\NodeJsHelpers\\KeyHasher.js",
+              "RelativeToolTip": "marvel-api\\NodeJsHelpers\\KeyHasher.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-08-29T21:56:28.302Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "2108-notes.txt",
-              "DocumentMoniker": "C:\\repos\\marvel-comics\\marvel-api\\Notes\\2108-notes.txt",
-              "RelativeDocumentMoniker": "marvel-api\\Notes\\2108-notes.txt",
-              "ToolTip": "C:\\repos\\marvel-comics\\marvel-api\\Notes\\2108-notes.txt",
-              "RelativeToolTip": "marvel-api\\Notes\\2108-notes.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-08-21T21:50:00.334Z"
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Repos\\marvel-comics\\marvel-api\\Program.cs",
+              "RelativeDocumentMoniker": "marvel-api\\Program.cs",
+              "ToolTip": "C:\\Repos\\marvel-comics\\marvel-api\\Program.cs",
+              "RelativeToolTip": "marvel-api\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T21:54:00.99Z",
+              "EditorCaption": ""
             }
           ]
         }

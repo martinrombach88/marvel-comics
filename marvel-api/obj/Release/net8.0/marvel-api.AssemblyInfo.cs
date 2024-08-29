@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("marvel-api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a6ca838513836554651bee9705143e58fc9b36de")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df1fd3fb1b5ca0386d276c587a913a351b5e591f")]
 [assembly: System.Reflection.AssemblyProductAttribute("marvel-api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("marvel-api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

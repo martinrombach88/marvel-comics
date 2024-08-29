@@ -1,0 +1,27 @@
+1. Install packages:
+     dotnet add package Microsoft.EntityFrameworkCore
+     dotnet add package Microsoft.EntityFrameworkCore.Relational
+     dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+
+2. Create a data context class that extends DbContext
+
+3. Add the OnConfiguring function and pass the connection string to it via UseSqlServer 
+(DataContext Line 15)
+
+4. Create a model of whatever data object you want to use (e.g. Comic.cs)
+
+4. Add the OnModelCreating to DataContext (DataContext line 21)
+It takes a ModelBuilder argument, which creates entities from your models.
+Use it to establish an entity from your model, (myBuilder.Entity<MyModel>())
+and attach it to a table with .ToTable("MyTable")
+
+5. Add the data context to the configuration of the controller and install automapper.
+
+6. If fields on the model are not nullable, give them a ?
+e.g. DateTime?
+
+7. Use automapper to create an automatic relationship with the table and the model (search controller 15)
+
+8. Use a get end point to test the relationship, assigning your 
+model to an IEnumerable and call the data context requesting the list from
+the database.

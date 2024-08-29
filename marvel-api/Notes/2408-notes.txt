@@ -14,7 +14,7 @@ Using the db first entity framework approach, you retrieve a single entry from t
 
 
 
-
+To do --> run through Entity Framework video again, clean up the errors (start at 20:22)
 
 
 
@@ -22,6 +22,10 @@ Using the db first entity framework approach, you retrieve a single entry from t
 
 
 ------------------------------------------------------ Later --------------------------------------------------------------------
+
+Dad - to 'normalise' the data and separate it out, you will need a character table to compare the comics to.
+Use the Marvel API to generate a list and make a table from the list called Characters.
+Use it to generate single and multiple endpoints where comics are returned containing the search
 
 2. character endpoint
 3. teamup endpoint

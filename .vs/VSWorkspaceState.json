@@ -1,10 +1,15 @@
 {
   "ExpandedNodes": [
     "",
+    "\\8-DotnetAPI_UserPeripherals\\Controllers",
+    "\\8-DotnetAPI_UserPeripherals\\Data",
+    "\\8-DotnetAPI_UserPeripherals\\Dtos",
+    "\\8-DotnetAPI_UserPeripherals\\Models",
     "\\marvel-api",
-    "\\marvel-api\\Controllers",
-    "\\marvel-api\\Notes"
+    "\\marvel-api\\DatabaseFiles",
+    "\\marvel-api\\NodeJsHelpers",
+    "\\marvel-api\\SQLQueries"
   ],
-  "SelectedNode": "\\marvel-api\\Controllers\\SearchController.cs",
+  "SelectedNode": "\\marvel-api\\NodeJsHelpers\\KeyHasher.js",
   "PreviewInSolutionExplorer": false
 }

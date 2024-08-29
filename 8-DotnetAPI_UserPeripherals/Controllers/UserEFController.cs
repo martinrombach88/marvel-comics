@@ -10,14 +10,15 @@ namespace DotnetAPI.Controllers;
 [Route("[controller]")]
 public class UserEFController : ControllerBase
 {
-    DataContextEF _entityFramework;    
+    DataContextEF _entityFramework;
     IMapper _mapper;
 
     public UserEFController(IConfiguration config)
     {
         _entityFramework = new DataContextEF(config);
 
-        _mapper = new Mapper(new MapperConfiguration(cfg =>{
+        _mapper = new Mapper(new MapperConfiguration(cfg =>
+        {
             cfg.CreateMap<UserToAddDto, User>();
             cfg.CreateMap<UserSalary, UserSalary>().ReverseMap();
             cfg.CreateMap<UserJobInfo, UserJobInfo>().ReverseMap();
@@ -45,17 +46,17 @@ public class UserEFController : ControllerBase
         {
             return user;
         }
-        
+
         throw new Exception("Failed to Get User");
     }
-    
+
     [HttpPut("EditUser")]
     public IActionResult EditUser(User user)
     {
         User? userDb = _entityFramework.Users
             .Where(u => u.UserId == user.UserId)
             .FirstOrDefault<User>();
-            
+
         if (userDb != null)
         {
             userDb.Active = user.Active;
@@ -66,11 +67,11 @@ public class UserEFController : ControllerBase
             if (_entityFramework.SaveChanges() > 0)
             {
                 return Ok();
-            } 
+            }
 
             throw new Exception("Failed to Update User");
         }
-        
+
         throw new Exception("Failed to Get User");
     }
 
@@ -79,12 +80,12 @@ public class UserEFController : ControllerBase
     public IActionResult AddUser(UserToAddDto user)
     {
         User userDb = _mapper.Map<User>(user);
-        
+
         _entityFramework.Add(userDb);
         if (_entityFramework.SaveChanges() > 0)
         {
             return Ok();
-        } 
+        }
 
         throw new Exception("Failed to Add User");
     }
@@ -95,18 +96,18 @@ public class UserEFController : ControllerBase
         User? userDb = _entityFramework.Users
             .Where(u => u.UserId == userId)
             .FirstOrDefault<User>();
-            
+
         if (userDb != null)
         {
             _entityFramework.Users.Remove(userDb);
             if (_entityFramework.SaveChanges() > 0)
             {
                 return Ok();
-            } 
+            }
 
             throw new Exception("Failed to Delete User");
         }
-        
+
         throw new Exception("Failed to Get User");
     }
 
