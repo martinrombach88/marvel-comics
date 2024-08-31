@@ -1,0 +1,2 @@
+
+1. standard practice -> make a csv from the json and build the character table from it.

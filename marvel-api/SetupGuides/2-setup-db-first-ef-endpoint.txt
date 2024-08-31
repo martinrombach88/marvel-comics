@@ -24,4 +24,4 @@ e.g. DateTime?
 
 8. Use a get end point to test the relationship, assigning your 
 model to an IEnumerable and call the data context requesting the list from
-the database.
+the database. (important -> its best to make a smaller table of sample data in SQL first and talk to that)

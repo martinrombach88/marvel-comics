@@ -12,6 +12,7 @@ valid call as follows: http://gateway.marvel.com/v1/public/comics?ts=1&apikey=12
 
 const crypto = require('crypto');
 // Generate ISO 8601 timestamp
+//iso string -> a standardised description of a date that a computer understands
 const timestamp = new Date().toISOString();
 
 // Add to URL
@@ -21,6 +22,7 @@ console.log("timestamp: " + timestamp);
 const apiKey = timestamp + 'private+public';
 
 // Generate MD5 hash
+//md5 -> encryption algorithm
 const md5Hash = crypto.createHash('md5').update(apiKey).digest('hex');
 
 console.log("hash: " + md5Hash);
